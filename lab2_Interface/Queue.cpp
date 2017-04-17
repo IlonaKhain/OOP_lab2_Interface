@@ -82,12 +82,13 @@ bool Queue::isEmpty() const {
 
 }
 Queue:: ~Queue() {
-	struct node *temp = top;
+	/*struct node *temp = top;
 	while (temp != NULL)
 	{
 		delete temp;
 		temp = temp->next;
-	}
-
+	}*/
+	cout << "~queue()" << endl;
 }
+
 

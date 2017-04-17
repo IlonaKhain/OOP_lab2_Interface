@@ -12,33 +12,32 @@ int StaticArray::get(int index) const {
 	}
 	else
 	{
-		return *array[index];
+		return array[index];
 	}	
 }
-void StaticArray::set(int index, int value) {
-	array[index] = &value;
+bool StaticArray::set(int index, int value) {
 	
+	if (index >= size() || index < 0)
+	{
+		cout << "element with such index doesn't exist";
+		return NULL;
+	}
+	array[index] = value;
+	return true;	
 }
 
 int StaticArray::size() const
 {
-	int count = 0;
-	int i = 0;
-	while( array[i]!=NULL)
-	{
-		i++;
-		count++;
-	}
-	return count;
+	return Number;
 }
 string  StaticArray::toString() const {
 	string str="";
 	int s = size();
 	int i=0;
 	while(i <s)
-	{
-		
-		str += to_string(*array[i]);
+	{	
+		str += to_string(array[i]);
+		str += ", ";
 		i++;
 	}
 	return str;

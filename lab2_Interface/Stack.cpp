@@ -81,12 +81,13 @@ bool Stack::isEmpty() const {
 		
 }
 Stack::~Stack()
-{
+{/*
 	struct node *temp = top;
 	while (temp != NULL)
 	{
 		delete temp;
 		temp = temp->next;
-	}
+	}*/
+	cout << "~Stack()" << endl;
 }
 

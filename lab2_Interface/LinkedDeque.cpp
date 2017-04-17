@@ -149,11 +149,11 @@ string LinkedDeque :: toString() const
 	return str;
 }
 LinkedDeque:: ~LinkedDeque() {
-	struct node *temp = top;
+	/*struct node *temp = top;
 	while (temp != NULL)
 	{
 		delete temp;
 		temp = temp->next;
-	}
-
+	}*/
+	cout << "~LinkedDeque()" << endl;
 }
