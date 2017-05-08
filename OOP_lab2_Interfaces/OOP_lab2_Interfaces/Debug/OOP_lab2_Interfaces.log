@@ -1,0 +1,8 @@
+﻿  OOP_lab2_Interfaces.cpp
+e:\2 курс\ооп\lab2_interface\oop_lab2_interface\oop_lab2_interfaces\oop_lab2_interfaces\oop_lab2_interfaces.cpp(17): warning C4101: value: неиспользованная локальная переменная
+e:\2 курс\ооп\lab2_interface\oop_lab2_interface\oop_lab2_interfaces\oop_lab2_interfaces\oop_lab2_interfaces.cpp(17): warning C4101: choice: неиспользованная локальная переменная
+e:\2 курс\ооп\lab2_interface\oop_lab2_interface\oop_lab2_interfaces\oop_lab2_interfaces\oop_lab2_interfaces.cpp(17): warning C4101: number: неиспользованная локальная переменная
+e:\2 курс\ооп\lab2_interface\oop_lab2_interface\oop_lab2_interfaces\oop_lab2_interfaces\oop_lab2_interfaces.cpp(18): warning C4101: index: неиспользованная локальная переменная
+e:\2 курс\ооп\lab2_interface\oop_lab2_interface\oop_lab2_interfaces\oop_lab2_interfaces\oop_lab2_interfaces.cpp(17): warning C4101: choseStructure: неиспользованная локальная переменная
+  OOP_lab2_Interfaces.vcxproj -> E:\2 курс\ООП\lab2_Interface\OOP_lab2_Interface\OOP_lab2_Interfaces\Debug\OOP_lab2_Interfaces.exe
+  OOP_lab2_Interfaces.vcxproj -> E:\2 курс\ООП\lab2_Interface\OOP_lab2_Interface\OOP_lab2_Interfaces\Debug\OOP_lab2_Interfaces.pdb (Full PDB)
