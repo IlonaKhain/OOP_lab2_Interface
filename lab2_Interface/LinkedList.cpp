@@ -97,12 +97,14 @@ int LinkedList::size() const {
 	return count - 1;
 }
 LinkedList::  ~LinkedList() {
-	/*struct node *temp = top;
+	struct node *temp = top;
+	struct node *temp2;
 	while (temp != NULL)
 	{
+		temp2 = temp->next;
 		delete temp;
-		temp = temp->next;
-	}*/
+		temp = temp2;
+	}
 	cout << "~linkedList()" << endl;
 }
 bool LinkedList :: insertAt(int index, int value)
